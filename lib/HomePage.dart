@@ -23,6 +23,7 @@ class _HomeState extends State<Home> {
         reverse: true,
           itemBuilder: (context,int index)=>Data(this.listof[index]),
           itemCount: this.listof.length,
+        
       ),
 
 
